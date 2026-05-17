@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.5)  17 MAY 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.5)  17 MAY 2026 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,13 +548,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B7B9985FABAD444BC76D2915EFE1C620;254.
  ) 
 Here is how much of TeX's memory you used:
- 11509 strings out of 478994
- 175721 string characters out of 5858185
- 531124 words of memory out of 5000000
+ 11511 strings out of 478994
+ 175741 string characters out of 5858185
+ 532276 words of memory out of 5000000
  28705 multiletter control sequences out of 15000+600000
- 468256 words of font info for 104 fonts, out of 8000000 for 9000
+ 468365 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,13n,89p,476b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,12n,89p,476b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2021/texmf-d
@@ -564,10 +564,10 @@ c/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lms
 so10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (2 pages, 193404 bytes).
+Output written on main.pdf (2 pages, 194893 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  36889 words of extra memory for PDF output out of 42996 (max. 10000000)
 
