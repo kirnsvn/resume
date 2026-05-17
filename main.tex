@@ -30,7 +30,7 @@
 
 % personal data
 \name{Nikita}{Kirnosov}
-\title{Senior Staff Software Engineer / Manager}                               % optional, remove / comment the line if not wanted
+\title{Senior Staff Software Engineer}                               % optional, remove / comment the line if not wanted
 %\address{}{\textcolor{black}{Tucson, AZ}}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{\textcolor{black}{+1~(520)~247~6636}}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
@@ -67,49 +67,50 @@
 
 \section{Experience}
 
-\cventry{2024 Apr -- Present}{Senior Staff Software Engineer / Senior Engineering Manager}{Google - Search}{}{}{
-Created Search Discovery Foundations team composed of Updates Infrastructure, ML Platform, and AI Platform sub-teams.%\newline{}%
-%Detailed achievements:%
+\cventry{2024 Apr -- 2026 Jan}{Senior Staff Software Engineer / TLM}{Google - Search AI Mode Growth}{}{}{
+Founded and led Search AI Notifications from pre-Gemini infrastructure to agentic serving stack, growing engagement from --6\% to +22\%, accounting for 57\% of inorganic Search AI Mode growth.%\newline{}%
 \begin{itemize}%
-\item Grew the team by 20 engineers in 6 months.%\newline{}%
-\item Landed real-time (15 minute fresh) transformer architecture recommendation models training and experimentation (+32\% engagement).%\newline{}%
+\item Built and grew an 18-person team owning a large-scale production platform; navigated sister team layoffs while beating growth targets 3x.%\newline{}%
+\item Landed real-time (15-minute fresh) transformer recommendation model training and experimentation (+32\% engagement).%\newline{}%
+\item Delivered significant infrastructure optimizations in 2024 to self-fund growth.%\newline{}%
 \item Built GenAI infrastructure in collaboration with Gemini and launched:%\newline{}%
 \begin{itemize}%
-\item Topic updates generation: users receive meaningful updates on the followed queries (16\% re-engagement increase).%\newline{}%
-\item {\textcolor{blue}{\textit{\href{https://lifehacker.com/tech/now-bar-samsungs-take-on-ios-live-activities}{Samsung Now Bar}}}}: users follow the games with real-time commentary generated from the UGC. %\newline{}%
-\item {\textcolor{blue}{\textit{\href{https://9to5google.com/2025/01/08/google-discover-daily-listen/}{Daily Listen}}}}: daily AI-generated podcasts on the news personalized to your interests. %\newline{}%
-\end{itemize}
-\item Enhanced serving infrastructure to support live activities with industry-leading latencies. %\newline{}%
+\item Topic updates generation: users receive meaningful updates on followed queries (+16\% re-engagement).%\newline{}%
+\item {\textcolor{blue}{\textit{\href{https://lifehacker.com/tech/now-bar-samsungs-take-on-ios-live-activities}{Samsung Now Bar}}}}: real-time sports commentary generated from UGC, delivered as Android Live Activity.%\newline{}%
+\item {\textcolor{blue}{\textit{\href{https://9to5google.com/2025/01/08/google-discover-daily-listen/}{Daily Listen}}}}: daily AI-generated podcasts personalized to user interests.%\newline{}%
+\end{itemize}%
+\item Redefined serving stack as a collection of agentic tool calls with sub-1-day time to production.%\newline{}%
+\item Grew team leads: landed 3 promotions to Staff Engineer in 2 years.%\newline{}%
 \end{itemize}
 }
 
-\cventry{2021 Apr -- 2024 Apr}{Staff Software Engineer / Engineering Manager}{Google - Search}{}{}{
-Led a Recommendations team powering notifications, promos, and suggestions, delivering >20\% of inorganic Search growth in 2023. Established cross-org collaboration across 27 engineers from Google Research, Core Infrastructure, and Android — enabling 83 client team SWEs and PMs by modernizing user-content matching with transformer-based retrieval and LLM-powered generation.%\newline{}%
-%Detailed achievements:%
+\cventry{2021 Apr -- 2024 Apr}{Staff Software Engineer}{Google - Search}{}{}{
+Led a unified Search Growth Infrastructure team delivering >20\% of inorganic Search growth in 2023. Established cross-org collaboration across 87 engineers from Google Research, Core Infrastructure, and Android — modernizing user-content matching with transformer-based retrieval and LLM-powered generation.%\newline{}%
 \begin{itemize}%
-\item Reduced new update product idea-to-MVP time from a month to 2 hours and time to launch from a quarter to 2 weeks.%\newline{}%
-\item Created a full cycle ML/AI ecosystem (indexing, generation, matching, training, serving). %\newline{}%
+\item Reduced new product idea-to-MVP time from a month to 2 hours and time to launch from a quarter to 2 weeks.%\newline{}%
+\item Built a full-cycle ML/AI ecosystem (indexing, generation, matching, training, serving, calibration):%\newline{}%
 \begin{itemize}%
-\item Augmented heuristic-based content-user matching rules with ML based content retrieval, improving user engagement by 24\%.%\newline{}%
-\item Created scalable architecture supporting various retrieval strategies (item2item, ScaNN, etc.), yielding 10\% engagement increase in the first quarter.%\newline{}%
-\end{itemize}
-\item Introduced on-device ML to a stack, improving notification triggering quality by 7\%.%\newline{}%
+\item Augmented heuristic content-user matching with ML-based retrieval, improving user engagement by 64\%.%\newline{}%
+\item Created scalable architecture supporting item2item, ScaNN, and custom interest retrieval strategies (+10\% engagement in first quarter).%\newline{}%
+\end{itemize}%
+\item Reduced model staleness from 1 month to 1 day via real-time training with lifetime user history.%\newline{}%
+\item Introduced on-device ML, improving notification triggering quality by 7\%.%\newline{}%
 \end{itemize}
 }
 
 \cventry{2018 Apr -- 2021 Apr}{Senior Software Engineer}{Google - Search}{}{}{
 Envisioned and led the team implementing ML training and serving ecosystem for Search's News and Content Discovery.%\newline{}%
-%Detailed achievements:%
 \begin{itemize}%
-\item Designed and led the implementation of unified and standardized ML infrastructure (C++) for Discover, Notifications, Suggest and user modeling teams featuring:%\newline{}%
+\item Designed and led the implementation of unified ML infrastructure (C++) for Discover, Notifications, Suggest, and user modeling teams featuring:%\newline{}%
 \begin{itemize}%
-\item zero training/serving skew near real time training data generation system, reducing the feature engineering work by 70\%,%\newline{}%
-\item dynamic triggering rate optimization based on recent and long-term user activity pattern.%\newline{}%
-\end{itemize}
-\item Scaled an existing inference serving infrastructure to serve 24x more inferences using the same resources.%\newline{}%
-\item Restructured Discover Search training process to support training on \href{https://cloud.google.com/tpu/}{TPU} to achieve 40x speedup (Python).%\newline{}%
-%\newline{}%
-\item Created user opt-out detection system proactively stopping bad experiments (C++).%\newline{}%
+\item zero training/serving skew near-real-time training data generation system, reducing feature engineering work by 70\%,%\newline{}%
+\item dynamic triggering rate optimization based on recent and long-term user activity patterns,%\newline{}%
+\item reinforcement learning support (in collaboration with DeepMind).%\newline{}%
+\end{itemize}%
+\item Scaled inference serving infrastructure to handle 24x more inferences on the same resources.%\newline{}%
+\item Launched flexible GPU/TPU resource acquisition and scheduling solution, improving accelerator utilization by 140\% (in collaboration with DeepMind).%\newline{}%
+\item Restructured Discover Search training to support TPU, achieving 40x speedup (Python).%\newline{}%
+\item Introduced reliability culture to ML ranking, establishing oncall rotation and making it a mission-critical product component.%\newline{}%
 \end{itemize}
 }
 

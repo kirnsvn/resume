@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.5)  17 MAY 2026 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.5)  17 MAY 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,6 +486,9 @@ LaTeX Info: Redefining \nameref on input line 57.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+\pagenumberwidth=\skip78
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
 \makecvtitledetailsbox=\box50
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 1.
@@ -526,8 +529,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvtitlepicturebox=\box51
-\makecvtitledetailswidth=\skip78
-\makecvtitlepicturewidth=\skip79
+\makecvtitledetailswidth=\skip79
+\makecvtitlepicturewidth=\skip80
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
@@ -537,23 +540,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 65.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 84.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./main.aux)
+[2] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B7B9985FABAD444BC76D2915EFE1C620;254.
  ) 
 Here is how much of TeX's memory you used:
- 11504 strings out of 478994
- 175673 string characters out of 5858185
- 529193 words of memory out of 5000000
+ 11509 strings out of 478994
+ 175721 string characters out of 5858185
+ 531124 words of memory out of 5000000
  28705 multiletter control sequences out of 15000+600000
- 468038 words of font info for 102 fonts, out of 8000000 for 9000
+ 468256 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,89p,476b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,89p,476b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2021/texmf-d
@@ -563,10 +564,10 @@ c/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lms
 so10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (1 page, 191896 bytes).
+Output written on main.pdf (2 pages, 193404 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  36889 words of extra memory for PDF output out of 42996 (max. 10000000)
 
