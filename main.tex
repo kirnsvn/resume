@@ -1,0 +1,142 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+%\usepackage[russian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.93]{geometry}
+
+\setlength{\hintscolumnwidth}{2cm}                % if you want to change the width of the column with the dates
+\definecolor{color0}{RGB}{0,0,0}
+\definecolor{color1}{RGB}{0,0,0}
+\definecolor{color2}{RGB}{0,0,0}
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Nikita}{Kirnosov}
+\title{Senior Staff Software Engineer / Manager}                               % optional, remove / comment the line if not wanted
+%\address{}{\textcolor{black}{Tucson, AZ}}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{\textcolor{black}{+1~(520)~247~6636}}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{kirnsvn@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{https://www.linkedin.com/in/kirnosov}                         % optional, remove / comment the line if not wanted
+%\extrainfo{https://github.com/kirnosov}                 % optional, remove / comment the line if not wanted
+%\extrainfoi{https://www.kirnosov.github.io}                 % optional, remove / comment the line if not wanted
+%\photo[80pt][0.0pt]{nk1.png}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+\makecvtitle
+
+\section{Skills}
+
+\cvitem{}{Technical Leadership, AI/ML Platforms Design, High Load Systems, Recommenders.}
+\cvitem{Languages}{C/C++, Python, Java, Go, SQL.}
+
+\section{Experience}
+
+\cventry{2024 Apr -- Present}{Senior Staff Software Engineer / Senior Engineering Manager}{Google - Search}{}{}{
+Created Search Discovery Foundations team composed of Updates Infrastructure, ML Platform, and AI Platform sub-teams.%\newline{}%
+%Detailed achievements:%
+\begin{itemize}%
+\item Grew the team by 20 engineers in 6 months.%\newline{}%
+\item Landed real-time (15 minute fresh) transformer architecture recommendation models training and experimentation (+32\% engagement).%\newline{}%
+\item Built GenAI infrastructure in collaboration with Gemini and launched:%\newline{}%
+\begin{itemize}%
+\item Topic updates generation: users receive meaningful updates on the followed queries (16\% re-engagement increase).%\newline{}%
+\item {\textcolor{blue}{\textit{\href{https://lifehacker.com/tech/now-bar-samsungs-take-on-ios-live-activities}{Samsung Now Bar}}}}: users follow the games with real-time commentary generated from the UGC. %\newline{}%
+\item {\textcolor{blue}{\textit{\href{https://9to5google.com/2025/01/08/google-discover-daily-listen/}{Daily Listen}}}}: daily AI-generated podcasts on the news personalized to your interests. %\newline{}%
+\end{itemize}
+\item Enhanced serving infrastructure to support live activities with industry-leading latencies. %\newline{}%
+\end{itemize}
+}
+
+\cventry{2021 Apr -- 2024 Apr}{Staff Software Engineer / Engineering Manager}{Google - Search}{}{}{
+Lead a Recommendations team powering notifications, promos, and suggestions to deliver >20\% of inorganic Search growth in 2023. Established and led cross-org collaboration of 27 engineers from Google Research, Core Infrastructure, and Android, enabling 83 client team SWEs and PM work by changed user-content matching approach and adopting recent AI advances.%\newline{}%
+%Detailed achievements:%
+\begin{itemize}%
+\item Reduced new update product idea-to-MVP time from a month to 2 hours and time to launch from a quarter to 2 weeks.%\newline{}%
+\item Created a full cycle ML/AI ecosystem (indexing, generation, matching, training, serving). %\newline{}%
+\begin{itemize}%
+\item Augmented heuristic-based content-user matching rules with ML based content retrieval, improving user engagement by 24\%.%\newline{}%
+\item Created scalable architecture supporting various retrieval strategies (item2item, ScaNN, etc.), yielding 10\% engagement increase in the first quarter.%\newline{}%
+\end{itemize}
+\item Introduced on-device ML to a stack, improving notification triggering quality by 7\%.%\newline{}%
+\end{itemize}
+}
+
+\cventry{2018 Apr -- 2021 Apr}{Senior Software Engineer}{Google - Search}{}{}{
+Envisioned and lead the team implementing ML training and serving ecosystem for Search's News and Content Discovery.%\newline{}%
+%Detailed achievements:%
+\begin{itemize}%
+\item Designed and lead the implementation of unified and standardized ML infrastructure (C++) for Discover, Notifications, Suggest and user modeling teams featuring:%\newline{}%
+\begin{itemize}%
+\item zero training/serving skew near real time training data generation system, reducing the feature engineering work by 70\%,%\newline{}%
+\item dynamic triggering rate optimization based on recent and long-term user activity pattern.%\newline{}%
+\end{itemize}
+\item Scaled an existing inference serving infrastructure to serve 24x more inferences using the same resources.%\newline{}%
+\item Restructured Discover Search training process to support training on \href{https://cloud.google.com/tpu/}{TPU} to achieve 40x speedup (Python).%\newline{}%
+%\newline{}%
+\item Created user opt-out detection system proactively stopping bad experiments (C++).%\newline{}%
+\end{itemize}
+}
+
+\cventry{2016 Apr -- 2018 Apr}{Software Engineer}{Google - YouTube}{}{}{
+Built storage abstraction microservices framework with no-downtime migration support (C++) and improved YT Public Data API performance, usability, and security (Python).%\newline{}%
+%Detailed achievements:%
+\begin{itemize}%
+\item Designed and implemented storage management framework allowing the user to create a full set of standard RESTful APIs for a defined resource in several hours regardless of the storage type (C++).   
+\item Migrated video metadata migration between Vitess and Spanner with no downtime, data loss, or client latency increase (C++).
+\end{itemize}
+}
+
+\cventry{2015  Sep--Oct}{Fellow}{Insight Data Science}{}{}{Built \href{https://youtu.be/gTCyknYSA2c}{\textcolor{blue}{\textit{CityGravity.info}}}, a trip schedule optimization app to see the greatest number of attractions.%\newline{}%
+}
+
+\cventry{2010 Aug -- 2016 Jan}{Graduate Researcher}{University of Arizona}{Tucson,AZ}{}{Developed Fortran code modeling the molecular system total wave function as an optimal combination of explicitly correlated Gaussian functions. Generalized the approach to be applied to exotic atoms and molecules and extended it to excited states. The results are published in over a dozen peer-reviewed papers and presented on multiple physics and supercomputing conferences.
+}
+
+\cventry{2010 Jan--May}{Intern}{Joint Institute of Nuclear Research}{Dubna,Russia}{}{
+Contributed to muon detector for CMS software development 
+by assessing signal processing code and vectorizing it.
+}
+
+\section{Education}
+
+\cventry{2010--2015}{Ph.D.}{University of Arizona}{Tucson}{AZ  -- Physics}{}  % arguments 3 to 6 can be left empty
+\cventry{2005--2010}{B.S. (Hons.)}{Saratov State University}{Saratov}{Russia  -- Physics}{}
+
+
+\end{document}
